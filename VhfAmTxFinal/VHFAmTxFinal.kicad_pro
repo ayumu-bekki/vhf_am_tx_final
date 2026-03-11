@@ -58,28 +58,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "silk_over_copper|58372821|79875000|872fde5f-87bd-4e44-b849-3b2d2d77bd57|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "silk_over_copper|77128579|90070762|e5cf7bd7-5e37-4116-acdf-cb1efd8af533|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "silk_over_copper|84499999|84522821|c9b90640-c992-4fc8-a5b4-9120c891917a|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "starved_thermal|114155000|75550000|f3f194b1-5454-49ae-8847-129a5b002433|ed34448e-7498-4fd4-a024-74bd931c83c4|B.Cu",
-          ""
-        ],
-        [
-          "starved_thermal|114155000|80950000|f3f194b1-5454-49ae-8847-129a5b002433|e714b7d4-3b6b-4c3f-9f40-428cc729493c|B.Cu",
-          ""
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -152,7 +131,7 @@
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
-        "min_resolved_spokes": 2,
+        "min_resolved_spokes": 1,
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
@@ -209,9 +188,7 @@
       ],
       "track_widths": [
         0.0,
-        0.5,
-        1.0,
-        3.0
+        1.0
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -488,7 +465,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "ARPowerAmp.kicad_pro",
+    "filename": "VHFAmTxFinal.kicad_pro",
     "version": 3
   },
   "net_settings": {

@@ -6,7 +6,7 @@
 	(descr "Potentiometer, horizontal, Trimmer, RM-063 http://www.runtron.com/down/PDF%20Datasheet/Carbon%20Film%20Potentiometer/RM065%20RM063.pdf")
 	(tags "Potentiometer Trimmer RM-063")
 	(property "Reference" "REF**"
-		(at 3.8 -1 0)
+		(at 0.6 -4.1 0)
 		(layer "F.SilkS")
 		(uuid "b82a8600-ae08-4a82-b1e5-48a4bdf060ec")
 		(effects
@@ -17,7 +17,7 @@
 		)
 	)
 	(property "Value" "Ceramic_Trimmer_Capacitors_THT"
-		(at 3.1 7 0)
+		(at 0 3.9 0)
 		(layer "F.Fab")
 		(uuid "95ec96ea-a3b7-4406-ab26-941aee52f908")
 		(effects
@@ -54,20 +54,31 @@
 		)
 	)
 	(attr through_hole)
-	(fp_circle
-		(center 3.1 3.1)
-		(end 6.1 3.1)
+	(fp_arc
+		(start -2.6 -1.5)
+		(mid -0.000965 -3.001666)
+		(end 2.599035 -1.501671)
 		(stroke
 			(width 0.1)
 			(type solid)
 		)
-		(fill no)
 		(layer "F.SilkS")
-		(uuid "ac478e78-d6bb-45d9-93ec-d89bbff4fd8e")
+		(uuid "24d43d62-348d-4a21-aaf3-d2f969c713a4")
+	)
+	(fp_arc
+		(start 2.6 1.5)
+		(mid -0.02003 3.001599)
+		(end -2.619787 1.465167)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "eb791ccf-4c88-4be6-a4f6-6f2da71a130f")
 	)
 	(fp_line
-		(start 0 0)
-		(end 0 6.2)
+		(start -3.1 -3.1)
+		(end -3.1 3.1)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -76,8 +87,8 @@
 		(uuid "57f55396-5143-4e50-aa37-831f1a41632b")
 	)
 	(fp_line
-		(start 0 0)
-		(end 6.2 0)
+		(start -3.1 -3.1)
+		(end 3.1 -3.1)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -86,8 +97,8 @@
 		(uuid "15758b6f-6d18-4f4b-b736-ce180f31f5e5")
 	)
 	(fp_line
-		(start 6.2 6.2)
-		(end 0 6.2)
+		(start 3.1 3.1)
+		(end -3.1 3.1)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -96,8 +107,8 @@
 		(uuid "d8c02f38-f8bc-4946-9b66-c3a20b6dcf5a")
 	)
 	(fp_line
-		(start 6.2 6.2)
-		(end 6.2 0)
+		(start 3.1 3.1)
+		(end 3.1 -3.1)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -106,7 +117,7 @@
 		(uuid "15732122-dae1-4405-89c8-ecb2f6d1c0ad")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 3.1 3.1 0)
+		(at 0 0 0)
 		(layer "F.Fab")
 		(uuid "b833c4df-8f6d-468b-8e48-bf86617b4132")
 		(effects
@@ -118,7 +129,7 @@
 		)
 	)
 	(pad "1" thru_hole roundrect
-		(at 1.1 3.1)
+		(at -2.1 0)
 		(size 2.5 2.5)
 		(drill 1.2)
 		(layers "*.Cu" "*.Mask")
@@ -127,7 +138,7 @@
 		(uuid "79849cb3-af8e-417c-8f95-2aa1e7965d28")
 	)
 	(pad "2" thru_hole circle
-		(at 5.2 3.1)
+		(at 2 0)
 		(size 2.5 2.5)
 		(drill 1.2)
 		(layers "*.Cu" "*.Mask")
