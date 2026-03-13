@@ -3238,7 +3238,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_Cenker_CKCS8060"
+		(property "Footprint" "VHFAmTxFinalLibrary:Air_Core_Inductor_8mm"
 			(at 143.51 86.36 0)
 			(effects
 				(font
@@ -3638,7 +3638,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_Cenker_CKCS8060"
+		(property "Footprint" "VHFAmTxFinalLibrary:Air_Core_Inductor_8mm"
 			(at 100.33 86.36 0)
 			(effects
 				(font
@@ -3978,7 +3978,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_Cenker_CKCS8060"
+		(property "Footprint" "VHFAmTxFinalLibrary:Air_Core_Inductor_8mm"
 			(at 50.8 104.14 0)
 			(effects
 				(font
@@ -4392,7 +4392,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_Cenker_CKCS8060"
+		(property "Footprint" "VHFAmTxFinalLibrary:Air_Core_Inductor_8mm"
 			(at 132.08 86.36 0)
 			(effects
 				(font
@@ -5621,7 +5621,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_10.4x10.4_H4.8"
+		(property "Footprint" "VHFAmTxFinalLibrary:Choke_Inductor_10mm"
 			(at 71.12 80.01 0)
 			(effects
 				(font
