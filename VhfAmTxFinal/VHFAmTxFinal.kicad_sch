@@ -5120,7 +5120,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d6ef273e-ae70-487f-b4dc-fa25f6bb8739")
 		(property "Reference" "C8"
@@ -5132,7 +5132,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "47p"
+		(property "Value" "22p"
 			(at 115.57 93.9862 0)
 			(effects
 				(font
@@ -5530,7 +5530,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ee98ba49-e129-46a0-af03-c74aa40fc694")
 		(property "Reference" "C5"
