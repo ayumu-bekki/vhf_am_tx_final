@@ -4595,7 +4595,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Piher_PT-10-V05_Vertical"
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Vishay_T73YP_Vertical"
 			(at 50.8 72.39 0)
 			(effects
 				(font
@@ -5211,7 +5211,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "VHFAmTxFinalLibrary:SOT-89-3_Handsoldering_Thirmo_Via"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-89-3_Handsoldering"
 			(at 73.66 92.71 0)
 			(effects
 				(font

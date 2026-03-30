@@ -1002,7 +1002,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Transistor_BJT:Q_NPN_BEC"
+		(symbol "Transistor_BJT:Q_NPN_BCE"
 			(pin_names
 				(offset 0)
 			)
@@ -1018,7 +1018,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "Q_NPN_BEC"
+			(property "Value" "Q_NPN_BCE"
 				(at 5.08 -1.27 0)
 				(effects
 					(font
@@ -1045,7 +1045,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "NPN transistor, base/emitter/collector"
+			(property "Description" "NPN transistor, base/collector/emitter"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1063,7 +1063,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Q_NPN_BEC_0_1"
+			(symbol "Q_NPN_BCE_0_1"
 				(polyline
 					(pts
 						(xy -2.54 0) (xy 0.635 0)
@@ -1100,7 +1100,7 @@
 					)
 				)
 			)
-			(symbol "Q_NPN_BEC_1_1"
+			(symbol "Q_NPN_BCE_1_1"
 				(polyline
 					(pts
 						(xy 0.635 0.635) (xy 2.54 2.54)
@@ -1165,7 +1165,7 @@
 							)
 						)
 					)
-					(number "3"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1183,7 +1183,7 @@
 							)
 						)
 					)
-					(number "2"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1523,12 +1523,6 @@
 		)
 	)
 	(junction
-		(at 86.36 110.49)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0dd2f462-fe74-43b9-9637-1490f4f09d9c")
-	)
-	(junction
 		(at 35.56 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1583,12 +1577,6 @@
 		(uuid "b5f41265-da23-463d-a87e-10355caad3d9")
 	)
 	(junction
-		(at 86.36 102.87)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bd9f9a0b-82c6-4bbd-a2cb-4bc8b09aa07c")
-	)
-	(junction
 		(at 71.12 29.21)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1637,6 +1625,16 @@
 			(type default)
 		)
 		(uuid "08876c4c-ae04-41ee-b561-b2d04d56906d")
+	)
+	(wire
+		(pts
+			(xy 86.36 100.33) (xy 86.36 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0dcedce0-92c3-4621-9587-a954267aec4c")
 	)
 	(wire
 		(pts
@@ -1780,16 +1778,6 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 109.22) (xy 86.36 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4badfdd1-b596-4490-ae0b-7b0bf0a9b724")
-	)
-	(wire
-		(pts
 			(xy 35.56 100.33) (xy 35.56 102.87)
 		)
 		(stroke
@@ -1847,16 +1835,6 @@
 			(type default)
 		)
 		(uuid "6b675a7d-54d5-415a-b619-e95d3610c03f")
-	)
-	(wire
-		(pts
-			(xy 86.36 100.33) (xy 86.36 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7303e8af-418b-4d4a-982c-339cca98a694")
 	)
 	(wire
 		(pts
@@ -2050,16 +2028,6 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 102.87) (xy 86.36 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bdaf1354-c42c-4d09-8bec-24554f490536")
-	)
-	(wire
-		(pts
 			(xy 77.47 97.79) (xy 77.47 100.33)
 		)
 		(stroke
@@ -2097,6 +2065,16 @@
 			(type default)
 		)
 		(uuid "d247b15e-3468-4ead-84f1-f18cf9ac5a8c")
+	)
+	(wire
+		(pts
+			(xy 86.36 110.49) (xy 86.36 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d42fea31-5167-40c6-932d-9ee4d56c1f61")
 	)
 	(wire
 		(pts
@@ -2147,16 +2125,6 @@
 			(type default)
 		)
 		(uuid "ef47be3b-a686-4526-8b56-6d58d46661ea")
-	)
-	(wire
-		(pts
-			(xy 86.36 110.49) (xy 86.36 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f07ec92a-ba84-4a3e-bc14-1251dddd2800")
 	)
 	(wire
 		(pts
@@ -2568,79 +2536,6 @@
 			(project "VhfAmTxDrive"
 				(path "/10172c80-1aae-4200-9592-affc8e540208"
 					(reference "H1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_BJT:Q_NPN_BEC")
-		(at 74.93 92.71 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3fbee26d-8078-4b86-bdc6-ae968d7e90c4")
-		(property "Reference" "Q1"
-			(at 80.01 91.4399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2SC4703"
-			(at 80.01 93.9799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-89-3_Handsoldering"
-			(at 80.01 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 74.93 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "NPN transistor, base/emitter/collector"
-			(at 74.93 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0dde4182-5656-4521-9c46-d19c137cd755")
-		)
-		(pin "2"
-			(uuid "9cb8bbf8-8e81-4d23-acbc-795818fd0bbd")
-		)
-		(pin "3"
-			(uuid "30bc9914-fce2-4510-b29e-4856ebd28cfa")
-		)
-		(instances
-			(project ""
-				(path "/10172c80-1aae-4200-9592-affc8e540208"
-					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -3318,6 +3213,79 @@
 			(project "VhfAmTxDrive"
 				(path "/10172c80-1aae-4200-9592-affc8e540208"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:Q_NPN_BCE")
+		(at 74.93 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a5e2273f-63eb-400a-8e23-fa69d17337c6")
+		(property "Reference" "Q1"
+			(at 80.01 91.4399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2SC4703"
+			(at 80.01 93.9799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 80.01 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 74.93 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "NPN transistor, base/collector/emitter"
+			(at 74.93 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e96e6144-ca8a-49c8-8d6d-93c11c157638")
+		)
+		(pin "2"
+			(uuid "b9d9117a-f0fc-435f-9ff2-8f0b94164926")
+		)
+		(pin "3"
+			(uuid "fbd56ed2-a18b-490e-937c-94bec373b838")
+		)
+		(instances
+			(project ""
+				(path "/10172c80-1aae-4200-9592-affc8e540208"
+					(reference "Q1")
 					(unit 1)
 				)
 			)
